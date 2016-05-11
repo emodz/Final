@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+        <link href='https://fonts.googleapis.com/css?family=Sarala:400,700' rel='stylesheet' type='text/css'>
+        <title>Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="http://code.jquery.com/jquery-2.1.3.js">
+        </script>
+        <script src="hamburgler.js"> </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="galleria-1.4.2.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+        <style>
+          .galleria{ width: 100%; height: 450px; background: #000 }
+        </style>
+</head>
+  <body >
+        <img src="logo.png" style="width:95px; height:75px; top: 0; float:left; position: absolute; z-index: 11; padding: 10px; overflow:hidden;"> 
+         <div class="mobilenav">
+        <li><a href="home.html"><img src="logo.png" style="width:95px; height:75px;"></a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a>__________________</a></li>
+         <li><a href="https://www.instagram.com/emodz/"><i class="fa fa-instagram fa-3x" aria-hidden="true" ></i></a> <a href="https://www.linkedin.com/in/eric-modzelewski-23238b104?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+        <li><a>emmodz@gmail.com</a></li>
+          </div>
+          <a href="javascript:void(0)" class="icon">   
+            <div class="hamburger">
+            <div class="menui top-menu"></div>
+            <div class="menui mid-menu"></div>
+            <div class="menui bottom-menu"></div>
+            </div>
+          </a>
+      <div class="top-bar"><div class="bottom">Eric Modzelewski Photography</div></div>
+       <div class="container">
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#blizzard">BLIZZARD</a></li>
+            <li><a data-toggle="tab" href="#bernie">BERNIE</a></li>
+            <li><a data-toggle="tab" href="#nature">NATURE</a></li>
+            <li><a data-toggle="tab" href="#random">RANDOM</a></li>
+          </ul>
+
+        <div class="tab-content">
+          <div id="blizzard" class="tab-pane fade in active">
+            <p>Various photos from Winter Storm Jonas of 2016.</p>
+            <div class="galleria">
+              <img src="photos/jonas/DSC_0604.jpg">
+              <img src="photos/jonas/DSC_0526.jpg">
+              <img src="photos/jonas/_DSC0349.jpg">
+              <img src="photos/jonas/_DSC0332.jpg">
+              <img src="photos/jonas/_DSC0323.jpg">
+              <img src="photos/jonas/_DSC0297.jpg">
+              <img src="photos/jonas/_DSC0295.jpg">
+            </div>
+          </div>
+          <div id="bernie" class="tab-pane fade">
+            <p>Various photos from the Bernie Sanders Rally at Washington Square</p>
+            <div class="galleria">
+              <img src="photos/bernie/_DSC0088.jpg">
+              <img src="photos/bernie/_DSC0108.jpg">
+              <img src="photos/bernie/_DSC0280.jpg">
+              <img src="photos/bernie/_DSC0297.jpg">
+              <img src="photos/bernie/_DSC0335.jpg">
+            </div>
+          </div>
+          <div id="nature" class="tab-pane fade">
+            <p>Various photos from hikes.</p>
+            <div class="galleria">
+              <img src="photos/nature/_DSC0369.jpg">
+              <img src="photos/nature/_DSC0375.jpg">
+              <img src="photos/nature/_DSC0379.jpg">
+              <img src="photos/nature/_DSC0380.jpg">
+              <img src="photos/nature/_DSC0384.jpg">
+              <img src="photos/nature/_DSC0390.jpg">
+            </div>
+
+          </div>
+
+          <div id="random" class="tab-pane fade">
+            <p>Various photos from my travels and adventures through NYC.</p>
+          </div>
+          <script>
+              Galleria.loadTheme('galleria.classic.min.js');
+              Galleria.run('.galleria');
+          </script>
+          </div>
+      </div>
+
+</body>
+</html>
